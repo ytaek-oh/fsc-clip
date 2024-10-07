@@ -1,0 +1,12 @@
+torch>=1.9.0
+torchvision
+webdataset==0.2.86
+regex
+ftfy
+tqdm
+pandas
+braceexpand
+huggingface_hub==0.23.0
+transformers==4.40.2
+timm>=0.9.8
+fsspec

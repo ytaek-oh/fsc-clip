@@ -1,0 +1,12 @@
+docker run --gpus all -it --shm-size=24gb \
+    -v /PATH/TO/fsc-clip:/home/appuser/fsc-clip \
+    -v /PATH/TO/datasets:/home/appuser/datasets \
+    -v ~/.cache/huggingface:/home/appuser/.cache/huggingface \
+    -v ~/.cache/torch/hub:/home/appuser/.cache/torch/hub \
+    -p 6888:8888 \
+    -p 6889:8889 \
+    -p 4006:6006 \
+    -p 4007:6007 \
+    -env="DISPLAY" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
+    -e JUPYTER_ENABLE_LAB=yes \
+    --name fsc-clip fsc-clip:v0
