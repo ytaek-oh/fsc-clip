@@ -1,14 +1,15 @@
 
+
 # <div align="center">Preserving Multi-Modal Capabilities of Pre-trained VLMs for Improving Vision-Linguistic Compositionality</div>
 
 <div align="center">
 
-[📄 [Paper](#) ]&nbsp; [🌍 [Project Page](https://ytaek-oh.github.io/fsc-clip) ] &nbsp;[🤗 [Models](https://huggingface.co/ytaek-oh/fsc-clip/tree/main) ]
+[📄 [Paper](http://arxiv.org/abs/2410.05210) ]&nbsp; [🌍 [Project Page](https://ytaek-oh.github.io/fsc-clip) ] &nbsp;[🤗 [Models](https://huggingface.co/ytaek-oh/fsc-clip/tree/main) ]
 
 </div>
 
 This repository includes the official implementations of the paper:
-> <a href="#"><b>Preserving Multi-Modal Capabilities of Pre-trained VLMs for Improving Vision-Linguistic Compositionality</b></a><br />
+> <a href="https://arxiv.org/abs/2410.05210"><b>Preserving Multi-Modal Capabilities of Pre-trained VLMs for Improving Vision-Linguistic Compositionality</b></a><br />
 > [Youngtaek Oh](https://ytaek-oh.github.io), [Jae Won Cho](https://chojw.github.io/), [Dong-Jin Kim](https://sites.google.com/site/djkimcv/), [In So Kweon](http://rcv.kaist.ac.kr/), [Junmo Kim](http://siit.kaist.ac.kr/) <br />
 > EMNLP 2024 (Long, Main) <br />
 
@@ -513,6 +514,13 @@ torchrun --nproc_per_node 4 -m training.main \
 If you find this work useful, please give it a star ⭐ and consider citing our papers:
 
 ```bibtex
+@article{oh2024preserving,
+  title={Preserving Multi-Modal Capabilities of Pre-trained VLMs for Improving Vision-Linguistic Compositionality},
+  author={Oh, Youngtaek and Cho, Jae Won and Kim, Dong-Jin and Kweon, In So and Kim, Junmo},
+  journal={arXiv preprint arXiv:2410.05210},
+  year={2024}
+}
+
 @article{oh2024exploring,
   title={Exploring the Spectrum of Visio-Linguistic Compositionality and Recognition},
   author={Oh, Youngtaek and Ahn, Pyunghwan and Kim, Jinhyung and Song, Gwangmo and Lee, Soonyoung and Kweon, In So and Kim, Junmo},
